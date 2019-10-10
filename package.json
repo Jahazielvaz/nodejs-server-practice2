@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-server-practice2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jahazielvaz/nodejs-server-practice2.git"
+  },
+  "author": "Imagine Tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jahazielvaz/nodejs-server-practice2/issues"
+  },
+  "homepage": "https://github.com/Jahazielvaz/nodejs-server-practice2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}

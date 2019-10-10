@@ -1,5 +1,7 @@
 module.exports = (app) => {
-  app.get('/', (req, res) => {
-    res.render('index')
+  app.get('/:name', (req, res) => {
+    res.render('index', {name: req.params.name})
   })
+
+
 }
